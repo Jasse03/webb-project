@@ -1,0 +1,114 @@
+*{
+    margin:auto 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+.headerTime{
+    background-image: url(Bilder/color-2174065.png);
+    height: 200px;
+    
+}
+
+.heading{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.navigation{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.left-loggo{
+    margin-bottom: -85px;
+    margin-left: 60px;
+    margin-top: -85px;
+}
+
+
+.headerLogga{
+    width: 150px;
+    height: 150px;   
+    
+}
+
+
+
+
+button{
+    border-radius: 10px;
+    background-image:radial-gradient(yellow, gold);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+.speldisplay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(243, 26, 72);
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+.ticTacToeBild{
+    height: 200px;
+    width: 200px;
+}
+
+.frågetekenBild{
+    height: 200px;
+    width: 200px;
+}
+
+
+.footer{
+    width: 100%;
+    margin:auto;
+    margin-top: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: red;
+    
+}
+
