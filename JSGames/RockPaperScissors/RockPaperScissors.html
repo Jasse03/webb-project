@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Sissors</title>
+    <link rel="stylesheet" href="RockPaperScissors.css">
+</head>
+<body>
+    
+    <!-- application wrapper -->
+    <div class="rsp-wrapper">
+        
+        <!-- title -->
+        <div class="title">
+            <h1>Rock Paper Scissor</h1>
+        </div>
+        <!-- user info -->
+        <div class="user-info">
+            <p>Make your choice</p>
+        </div>
+        <!-- images -->
+        <div class="image-container">
+            <div class="rock">
+                <img src="/Bilder/rock.jfif" alt="rock" id="rock">
+            </div>
+            <div class="paper">
+                <img src="/Bilder/paper.jfif" alt="paper" id="paper">
+            </div>
+            <div class="scissor">
+                <img src="/Bilder/scissor.jfif" alt="scissor" id="scissor">
+            </div>
+        </div>
+        <!-- game stats -->
+        <div class="stats">
+            <div class="user">
+                <p>You Win</p>
+                <p id="user-stats">0</p>
+            </div>
+            <div class="computer">
+                <p>Computer Win</p>
+                <p id="computer-stats">0</p>
+            </div>
+        </div>   
+        <!-- result -->
+        <div class="result">
+            <p id="result">Result Unknown</p>
+        </div>
+        <!-- Riset button -->
+        <div class="riset">
+            <button id="riset">Riset</button>
+        </div>
+    </div>
+    <script src="RockPaperScissors.js"></script>
+
+</body>
+</html>
