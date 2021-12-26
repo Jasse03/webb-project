@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/css/themes/splide-skyblue.min.css">
+
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="Bilder/game.png ">
 
@@ -15,7 +17,7 @@
     <div>
         <div class="topnav">
             <div class="search-box">
-                <img src="Bilder/500px-Search_Icon.svg.png">
+                <img src="Bilder/500px-Search_Icon.svg.png" alt"">
                 <input type="text" placeholder="Search..">
             </div>
             
@@ -51,16 +53,17 @@
     </div>
 </header>
 
-
   
 
-
     <main>
+
+        
         <div class="speldisplay">
+            <h2>Time to play some JSGames!</h2>
             <div class="grid-container">
                 <div class="grid-item">
                     <div class="itemTicTacToe">
-                     <a href="JSGames/TicTacToe/TicTacToe.html"> <img class="ticTacToeBild" src="Bilder/clipart1261070.png" alt=""></a>   
+                     <a href="JSGames/TicTacToe/TicTacToe.html"> <img class="ticTacToeBild" src="Bilder/tictaktoe.png" alt=""></a>   
                      <p>TicTacToe</p> 
                     </div>
                 </div>
@@ -76,16 +79,44 @@
                         <p>RockPaperScissors</p>
                     </div>
                 </div>
+                <div class="grid-item">
+                    <div class ="itemSnake">
+                        <a href="JSGames/Snake/snake.html"> <img class="snakeBild" src="Bilder/snake.png"   alt=""></a>
+                        <p>Snake</p>
+                    </div>
+                </div>
             </div>
         </div>
+        <h2>Take a look at intense gaming moments</h2>
     </main>
 
 
+    
 
-<aside>
+    <aside>
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide" >
+                        <img class="" src="Bilder/snake.png" alt="">
+                        
+                    </li>
+                    <li class="splide__slide" >
+                        <img src="Bilder/tictaktoe.png" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="Bilder/rock.jfif" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <script>var exports = {};</script>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/js/splide.cjs.min.js"></script>
+           
+    
 
-
-</aside>
+    </aside>
 
 
 
@@ -98,6 +129,7 @@
      </div>
 </footer>
 
+<script src="index.js"></script>
 
     
 </body>
