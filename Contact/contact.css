@@ -103,12 +103,29 @@ section{
 }
 
 .footer{
+    
     width: 100%;
     margin:auto;
     margin-top: 100px;
+    padding-top: 10px;
     padding-bottom: 30px;
     background-color: red;
     
+}
+
+.footerInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrightLoggo{
+    width: 20px;
+    height: 20px;
+}
+
+.footerLink{
+    text-decoration: none;
+   
 }
 
 
